@@ -1,0 +1,46 @@
+.section-about{
+    background-color: #9fb6db;
+    padding: 25rem 0;
+    margin-top:-20vh ;
+     
+    @include respond(tab-port) {
+        padding: 30rem 0;
+    
+}
+}
+
+.section-features{
+    padding: 20rem 0rem;
+    background-image:linear-gradient(to left top, $color-primary, $color-secondary),url("/Images/BOLD-2.jpg");
+    background-size: cover;
+    // transform: skewY(-7deg);
+    margin-top: -10rem;
+
+    // & > * {
+    //     transform: skewY(7deg);
+    // }
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
+    
+}
+
+.section-stories{
+    position: relative;
+    padding: 15rem 0;
+
+    
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
+}
+
+.section-features-1{
+    padding: 20rem 0rem;
+    background-color:$color-secondary;
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
+}

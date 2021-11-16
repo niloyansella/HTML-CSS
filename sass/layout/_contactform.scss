@@ -1,0 +1,81 @@
+.cfwrapper {
+    position: relative;
+    width: 100%;
+    padding: 2em;
+
+  }
+  
+  .cf-center-block {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .cf-flex-container-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row wrap;
+  }
+  
+  form {
+    position: relative;
+    width: 100%;
+    max-width: 85rem;
+    font-size: 1.8em;
+    font-weight: normal;
+    line-height: 1.2222em;
+  }
+  
+  form > div:last-child {
+    justify-content: space-around;
+  }
+  
+  input,
+  textarea {
+    flex-grow: 1;
+    margin: 1rem 2%;
+    padding: 1.1rem 1.5rem;
+    border: 2px solid $color-primary;
+    border-radius: 5px;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+  }
+  
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+  }
+  
+  input:focus,
+  textarea:focus {
+    background-color: rgba(231, 228, 228, 0.897);
+  }
+  
+  input[type=submit] {
+    flex-grow: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: $color-primary;
+    border: 3px solid $color-secondary;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  input[type=submit]:focus, input[type=submit]:hover {
+    cursor: pointer;
+    flex-grow: 1;
+    color: $color-primary;
+    background-color: rgba(255, 255, 255, 0.24);
+    border: 3px solid $color-primary;
+    margin-top: 1rem;
+  }
+
+  iframe{
+      margin-top: 15rem;
+      
+  }
